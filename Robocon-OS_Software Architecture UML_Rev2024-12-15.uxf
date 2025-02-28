@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>112</x>
+      <y>224</y>
+      <w>656</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>Robocon-OS ROS2 Humble Controller Packages</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>120</x>
+      <y>520</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Arm_BORUNTE-BRTIRUS2030A-V11
+--
+Communication = TCP/IP
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>344</x>
+      <y>520</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Depth Camera_Botu TM815-IX-E1
+--
+Communication = TCP/IP
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>744</x>
+      <y>632</y>
+      <w>216</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Lidar_Hinson SE-1035
+--
+Communicatuion = CANOPEN, TCP/UDP 
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>792</x>
+      <y>520</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>CAN Bus Host_Waveshare CAN bus
+--
+Raspberry Pi 5
+Waveshare CAN bus Hat
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>568</x>
+      <y>520</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>RS485 Bus Host_Waveshare RS485
+--
+Raspberry Pi 5
+Waveshare RS485 Hat
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>968</x>
+      <y>632</y>
+      <w>208</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Motor Controller_ZAPI DUALPMX&amp;HP
+--
+Drive Motor #1 = 24 V / 80 Amp
+Drive Motor #2 = 24 V / 80 Amp
+Hydraulic Pump = 280 Amp
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>800</x>
+      <y>568</y>
+      <w>104</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+CAN Bus</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>568</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+CAN Bus</panel_attributes>
+    <additional_attributes>10.0;10.0;230.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>296</x>
+      <y>632</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>End Effector_Jodell RG75-300
+--
+Grip Force = 40-300 N
+Communication = Modbus RTU(RS485)
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>568</y>
+      <w>144</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+RS485</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>112</x>
+      <y>496</y>
+      <w>1064</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Robocon-OS ROS2 Humble Hardware Packages</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1192</x>
+      <y>400</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Dynamic LiDAR Point Cloud Interpolation
+--
+Communication = TCP/IP
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>920</x>
+      <y>112</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Action Animation Database
+--
+Local Vertex Animations
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>520</x>
+      <y>632</y>
+      <w>216</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Sensor_BW-IMU50
+--
+Communicatuion = RS485
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>568</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+RS485</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>792</x>
+      <y>384</y>
+      <w>208</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Odometry Server
+--
+LIDAR
+wheel encoders
+IMUs
+Visual Inertial Odometry (VIO)
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>448</y>
+      <w>240</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+ROS2</panel_attributes>
+    <additional_attributes>280.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>448</y>
+      <w>312</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+ROS2</panel_attributes>
+    <additional_attributes>370.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>448</y>
+      <w>136</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+ROS2</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>392</x>
+      <y>288</y>
+      <w>240</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>base_link
+--
+coordinate frame attached to the mobile base
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1224</x>
+      <y>264</y>
+      <w>208</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>TF2 Transform Frame Trees
+--
+coordinate frames over time
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>120</x>
+      <y>384</y>
+      <w>336</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Trajectory Processing
+--
+Articulation Controller
+moveit::trajectory_processing::TimeOptimalTrajectoryGeneration
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>432</y>
+      <w>496</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Joint Encoders</panel_attributes>
+    <additional_attributes>600.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>448</y>
+      <w>112</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Joint Trajectory</panel_attributes>
+    <additional_attributes>10.0;90.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>488</x>
+      <y>384</y>
+      <w>248</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Differential Controller
+--
+ros_controllers::ackermann_steering_controller
+Convert vehicle speed to wheel speed
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>544</x>
+      <y>448</y>
+      <w>360</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+ros2_control::
+hardware_interface::HW_IF_VELOCITY</panel_attributes>
+    <additional_attributes>430.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>344</y>
+      <w>184</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+TF2 Frame</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>584</x>
+      <y>352</y>
+      <w>80</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+TF2 Frame</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>352</y>
+      <w>80</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+TF2 Frame</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>992</x>
+      <y>416</y>
+      <w>216</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+sensor_msgs::msg::PointCloud2</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>112</x>
+      <y>80</y>
+      <w>1064</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>Robocon-OS ROS2 Humble Planner Packages</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>784</x>
+      <y>224</y>
+      <w>656</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>Robocon-OS ROS2 Humble Odometry Packages</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>792</x>
+      <y>320</y>
+      <w>208</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>g2o
+--
+General Graph Optimization
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>792</x>
+      <y>264</y>
+      <w>208</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>OpenCV
+--
+Computer Vision Library
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1008</x>
+      <y>264</y>
+      <w>208</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Sophus
+--
+2d and 3d Lie Groups
+rigid body transformations
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1008</x>
+      <y>320</y>
+      <w>208</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Eigen
+--
+General Graph Optimization
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
